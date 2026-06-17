@@ -22,6 +22,7 @@
   th,td{text-align:left;padding:9px 18px;border-top:1px solid #eee;vertical-align:top}
   th{background:#fafafa;font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:#6a7a8a}
   td.price{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+  td img.thumb{height:36px;width:auto;vertical-align:middle;margin-right:9px;border-radius:3px;border:1px solid #e3e3e3;background:#fff}
   tr.sel td{background:#eaf3ff}
   .tag{display:inline-block;background:var(--blue);color:#fff;font-size:11px;border-radius:4px;padding:1px 6px;margin-left:6px;vertical-align:middle}
   a{color:var(--blue);text-decoration:none}
@@ -44,12 +45,12 @@
 <div class="wrap">
 <!-- =====================================================================
   HOW TO EDIT THIS PAGE  (Val + Amedeo)
-  Each floor is a <table>. Each furniture item is ONE row that looks like:
+  Each floor is a <table>. Each furniture item is ONE row:
     <tr><td>ITEM NAME</td><td>where to buy <a href="LINK">store</a></td><td class="price">$PRICE</td></tr>
   - CHANGE an item: edit the words between <td> and </td>.
-  - ADD an item: copy a full <tr> ... </tr> line, paste it below, change the words.
-  - ADD a link: <a href="https://paste-the-link-here">store name</a>
-  - Keep the < > tags intact. When done, click "Commit changes" - the live page updates in about a minute.
+  - ADD an item: copy a full <tr> ... </tr> line, paste below, change the words.
+  - ADD a link: <a href="https://paste-link-here">store name</a>
+  - Keep the < > tags intact. Click "Commit changes" - live page updates in ~1 min.
 ===================================================================== -->
 
 <h1>Shore House — Furniture Plan by Floor</h1>
@@ -72,11 +73,11 @@
     <div class="tblcol">
     <table>
       <tr><th>Item</th><th>Pick</th><th class="price">Price</th></tr>
-      <tr class="sel"><td>Queen sleeper sofa <span class="tag">bed #4</span></td><td>Ebern Designs Kleban, blue — <a href="https://www.wayfair.com/furniture/pdp/ebern-designs-kleban-queen-sofa-sleeper-w111720727.html">Wayfair</a></td><td class="price">$1,150</td></tr>
+      <tr class="sel"><td><img class="thumb" src="thumbs/sofa.jpg" alt="">Queen sleeper sofa <span class="tag">bed #4</span></td><td>Ebern Designs Kleban, blue — <a href="https://www.wayfair.com/furniture/pdp/ebern-designs-kleban-queen-sofa-sleeper-w111720727.html">Wayfair</a></td><td class="price">$1,150</td></tr>
       <tr><td>Mattress topper (for the pull-out)</td><td>Amazon, queen 2–3"</td><td class="price">$60</td></tr>
-      <tr><td>Swivel accent chair</td><td><a href="https://www.birchlane.com/keyword.php?keyword=coastal+and+nautical+swivel+chairs">Birch Lane</a> / <a href="https://www.target.com/c/accent-chairs-recliners-living-room-furniture-home-decor/nautical-coastal-and-beach/-/N-4ynw0Zbaha0s5xlc7">Target</a></td><td class="price">$350</td></tr>
-      <tr><td>Round light-wood coffee table</td><td><a href="https://www.article.com/shop/light-wood-coffee-tables">Article</a> / <a href="https://plankandbeam.com/products/mid-century-modern-round-coffee-table-36">Plank+Beam</a></td><td class="price">$300</td></tr>
-      <tr><td>Light-oak media console</td><td><a href="https://www.amazon.com/Light-Oak-TV-Stand/s?k=Light+Oak+TV+Stand">Amazon</a></td><td class="price">$250</td></tr>
+      <tr><td><img class="thumb" src="thumbs/chair.jpg" alt="">Swivel accent chair</td><td><a href="https://www.birchlane.com/keyword.php?keyword=coastal+and+nautical+swivel+chairs">Birch Lane</a> / <a href="https://www.target.com/c/accent-chairs-recliners-living-room-furniture-home-decor/nautical-coastal-and-beach/-/N-4ynw0Zbaha0s5xlc7">Target</a></td><td class="price">$350</td></tr>
+      <tr><td><img class="thumb" src="thumbs/coffeetable.jpg" alt="">Round light-wood coffee table</td><td><a href="https://www.article.com/shop/light-wood-coffee-tables">Article</a> / <a href="https://plankandbeam.com/products/mid-century-modern-round-coffee-table-36">Plank+Beam</a></td><td class="price">$300</td></tr>
+      <tr><td><img class="thumb" src="thumbs/console.jpg" alt="">Light-oak media console</td><td><a href="https://www.amazon.com/Light-Oak-TV-Stand/s?k=Light+Oak+TV+Stand">Amazon</a></td><td class="price">$250</td></tr>
       <tr><td>Washable area rug (optional, softens tile)</td><td><a href="https://ruggable.com/products/gray-malin-palmetto-coastal-blue-rug">Ruggable Coastal Blue</a></td><td class="price">$350</td></tr>
       <tr><td>55" smart TV + mount</td><td>Costco / Amazon</td><td class="price">$400</td></tr>
       <tr><td>Gallery-wall coastal art set</td><td><a href="https://www.amazon.com/s?k=coastal+framed+wall+art+set+of+6">Amazon</a></td><td class="price">$120</td></tr>
@@ -117,7 +118,7 @@
     <div class="tblcol">
     <table>
     <tr><th>Item</th><th>Pick</th><th class="price">Price</th></tr>
-    <tr><td>Twin-over-full bunk + twin trundle <span class="tag">sleeps 4</span></td><td>IKEA / Max&Lily (Amazon)</td><td class="price">$700</td></tr>
+    <tr><td><img class="thumb" src="thumbs/bunk.jpg" alt="">Twin-over-full bunk + twin trundle <span class="tag">sleeps 4</span></td><td>IKEA / Max&Lily (Amazon)</td><td class="price">$700</td></tr>
     <tr><td>3 mattresses (twin/twin/full) + protectors</td><td>Amazon / Costco</td><td class="price">$650</td></tr>
     <tr><td>Small dresser + nightstand + lamp</td><td>IKEA / Wayfair</td><td class="price">$300</td></tr>
     <tr><td>Blackout shades</td><td>Amazon</td><td class="price">$100</td></tr>
@@ -139,7 +140,7 @@
     <div class="tblcol">
     <table>
     <tr><th>Item</th><th>Pick</th><th class="price">Price</th></tr>
-    <tr><td>King bed frame + upholstered headboard</td><td>Article / Wayfair</td><td class="price">$700</td></tr>
+    <tr><td><img class="thumb" src="thumbs/kingbed.jpg" alt="">King bed frame + upholstered headboard</td><td>Article / Wayfair</td><td class="price">$700</td></tr>
     <tr><td>King mattress, medium-firm + encasement + protector</td><td>Costco / Nectar</td><td class="price">$770</td></tr>
     <tr><td>2 nightstands + 2 lamps (USB)</td><td>Wayfair</td><td class="price">$280</td></tr>
     <tr><td>Dresser + luggage bench</td><td>Wayfair / IKEA</td><td class="price">$370</td></tr>
